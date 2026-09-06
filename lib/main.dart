@@ -38,6 +38,7 @@ class pageAccueil extends StatelessWidget {
         ],
         backgroundColor: Colors.teal,
       ),
+<<<<<<< HEAD
       body: const SingleChildScrollView(
         child: Column(
           children: [
@@ -52,6 +53,13 @@ class pageAccueil extends StatelessWidget {
             PartieIcone(),
             PartieRubrique(),
           ],
+=======
+      body: Center(
+        child: Image.asset(
+          'assets/images/magazineInfo.jpeg',
+          width: double.infinity,
+          fit: BoxFit.cover,
+>>>>>>> 5323251325d433f5ef5347bd5a161746b13511eb
         ),
       ),
       floatingActionButton: FloatingActionButton(
@@ -63,6 +71,7 @@ class pageAccueil extends StatelessWidget {
       ),
     );
   }
+<<<<<<< HEAD
 }
 
 // ==================== WIDGETS PERSONNALISÉS ====================
@@ -191,4 +200,6 @@ class PartieRubrique extends StatelessWidget {
       ),
     );
   }
+=======
+>>>>>>> 5323251325d433f5ef5347bd5a161746b13511eb
 }
